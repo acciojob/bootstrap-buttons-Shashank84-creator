@@ -1,21 +1,43 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Buttons</title>
+  <!-- Link Bootstrap CSS file -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Additional styles */
+    .btn-full-width {
+      width: 100%;
+    }
+  </style>
 </head>
-
 <body>
-	<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Outline secondary button</button>
-<button type="button" class="btn btn-success">Success large button</button>
-<button type="button" class="btn btn-danger">Danger small button</button>
-<button type="button" class="btn btn-warning">Warning large full-screen width button</button>
-<button type="button" class="btn btn-info">Disabled info button</button>
-<button type="button" class="btn btn-light">Light button</button>
-<button type="button" class="btn btn-dark">Link button</button>
-
+  <div class="container mt-5">
+    <!-- Button 1: Primary button -->
+    <button id="button-1" class="btn btn-primary">Primary button</button>
+    <br><br>
+    <!-- Button 2: Outline secondary button -->
+    <button id="button-2" class="btn btn-outline-secondary">Outline secondary button</button>
+    <br><br>
+    <!-- Button 3: Success large button -->
+    <button id="button-3" class="btn btn-success btn-lg">Success large button</button>
+    <br><br>
+    <!-- Button 4: Danger small button -->
+    <button id="button-4" class="btn btn-danger btn-sm">Danger small button</button>
+    <br><br>
+    <!-- Button 5: Warning large full-screen width button -->
+    <button id="button-5" class="btn btn-warning btn-lg btn-full-width">Warning large full-screen width button</button>
+    <br><br>
+    <!-- Button 6: Disabled info button -->
+    <button id="button-6" class="btn btn-info" disabled>Disabled info button</button>
+    <br><br>
+    <!-- Button 7: Light button -->
+    <button id="button-7" class="btn btn-light">Light button</button>
+    <br><br>
+    <!-- Button 8: Link button -->
+    <button id="button-8" class="btn btn-link">Link button</button>
+  </div>
 </body>
-
 </html>
